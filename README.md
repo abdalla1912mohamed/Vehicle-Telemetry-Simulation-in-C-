@@ -1,4 +1,18 @@
 This repository contains a simulated car instance built from various classes representing sensors, ECUs (Electronic Control Units), a Diagnostic ECU, and a central Logger. The system's architecture is designed with best practices in C++ OOP and design patterns to maintain scalability, efficiency, and readability.
+how to build & RUN : 
+mkdir build 
+cd build 
+cmake .. 
+make 
+./CarECU
+
+
+
+
+
+
+
+
 
 Key Components
 Sensors:
@@ -21,11 +35,9 @@ Ensures a consolidated record of telemetry events, sensor updates, and diagnosti
 Project Structure
 The project is structured as follows:
 
-/src - Contains the implementation files for Sensors, ECUs, Diagnostic ECU, and Logger classes.
-/include - Contains header files defining the interfaces and functionalities of each component.
-/examples - Contains example code and a main simulation script that creates a Car instance, instantiates sensors and ECUs, and simulates telemetry data in real-time.
-/tests - Unit tests to verify the functionality of each class and component.
-Features
+porject directory - Contains the implementation files for Sensors, ECUs, , Logger and car  classes.
+/src include --> the main.cpp
+
 Modular Sensor Design: Add new sensors with ease by extending the Sensor base class.
 Event-Driven Notification: ECUs receive real-time updates from subscribed sensors to take immediate action.
 Comprehensive Diagnostics: The Diagnostic ECU monitors all systems for anomalies, maintaining vehicle health.
