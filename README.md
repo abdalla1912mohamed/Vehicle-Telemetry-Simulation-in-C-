@@ -1,5 +1,5 @@
-This repository contains a simulated car instance built from various classes representing sensors, ECUs (Electronic Control Units), a Diagnostic ECU, and a central Logger. The system's architecture is designed with best practices in C++ OOP and design patterns to maintain scalability, efficiency, and readability.
-how to build & RUN : 
+###This repository contains a simulated car instance built from various classes representing sensors, ECUs (Electronic Control Units), a Diagnostic ECU, and a central Logger. The system's architecture is designed with best practices in C++ OOP and design patterns to maintain scalability, efficiency, and readability.
+####how to build & RUN : 
 mkdir build 
 cd build 
 cmake .. 
@@ -14,7 +14,7 @@ make
 
 
 
-Key Components
+##Key Components
 Sensors:
 
 A base Sensor class represents the fundamental sensor interface.
